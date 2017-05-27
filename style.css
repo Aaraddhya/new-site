@@ -1,0 +1,50 @@
+body{
+  background: url(paper.jpg);
+    background-position: left top;
+    background-repeat: repeat;
+}
+div{
+color: #A3B4C0;
+font-family: 'Roboto', sans-serif;
+
+}
+
+#home{
+  height: 40vh;
+  width: 100vw;
+  margin-left: -8px;
+  margin-top: -8px;
+  background-color: #334960;
+  z-index: -1;
+}
+.arrow-down_1 {
+  width: 0;
+  height: 0;
+  margin-left: 36.6666666666666666vw;
+  border-left: 40px solid transparent ;
+  border-right: 40px solid  transparent;
+  border-top: 40px solid #334960;
+}
+#exp{
+  height: 80vh;
+  border-radius: 25px;
+  width: 80vw;
+  margin-top: -95px;
+  margin-left: 110px;
+  background-color: #32AC97;
+}
+.arrow-down_2 {
+  width: 0;
+  height: 0;
+  margin-left: 36.6666666666666666vw;
+  border-left: 40px solid transparent ;
+  border-right: 40px solid  transparent;
+  border-top: 40px solid #32AC97;
+}
+#contact{
+  height: 80vh;
+  width: 80vw;
+  margin-left: 110px;
+  background-color: #F17C72;
+  margin-top: -20px;
+}
