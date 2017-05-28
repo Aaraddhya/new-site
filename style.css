@@ -86,7 +86,7 @@ animation-timing-function: ease-in-out;
   transform:translate(-50%,-50%);
   -webkit-transform:translate(-50%,-50%);
 }
-#block {
+#block, #block_1 {
   position: relative;
   display: inline-block;
   width: calc(70vw/3);
@@ -99,6 +99,14 @@ animation-timing-function: ease-in-out;
   display: inline-block;
   margin-top: 65%;
   margin-left: 85%;
+}
+#block_1 .card {
+  margin: 0;
+  position: absolute;
+  width: 25vw;
+  display: inline-block;
+  margin-top: 40%;
+  margin-left: 25%;
 }
 @keyframes showcase{
   0%{
